@@ -1,0 +1,42 @@
+[
+  {
+	"Word": "Ball",
+	"Image": "res://Images/Ball.jpg",
+	"Audio": "res://Audio/Ball.wav"
+  },
+  {
+	"Word": "Book",
+	"Image": "res://Images/Book.jpg",
+	"Audio": "res://Audio/Book.wav"
+  },
+  {
+	"Word": "Cake",
+	"Image": "res://Images/Cake.jpg",
+	"Audio": "res://Audio/Cake.wav"
+  },
+  {
+	"Word": "Bike",
+	"Image": "res://Images/Bike.jpg",
+	"Audio": "res://Audio/Bike.wav"
+  },
+  {
+	"Word": "Tree",
+	"Image": "res://Images/Tree.jpg",
+	"Audio": "res://Audio/Tree.wav"
+  },
+  {
+	"Word": "Car",
+	"Image": "res://Images/Car.jpg",
+	"Audio": "res://Audio/Car.wav"
+  },
+	{
+	"Word": "House",
+	"Image": "res://Images/House.jpg",
+	"Audio": "res://Audio/House.wav"
+  },
+  {
+	"Word": "Stars",
+	"Image": "res://Images/Stars.jpg",
+	"Audio": "res://Audio/Stars.wav"
+  }
+]

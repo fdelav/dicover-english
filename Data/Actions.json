@@ -1,0 +1,42 @@
+[
+  {
+	"Word": "Run",
+	"Image": "res://Images/Run.jpg",
+	"Audio": "res://Audio/Run.wav"
+  },
+  {
+	"Word": "Jump",
+	"Image": "res://Images/Jump.jpg",
+	"Audio": "res://Audio/Jump.wav"
+  },
+  {
+	"Word": "Eat",
+	"Image": "res://Images/Eat.jpg",
+	"Audio": "res://Audio/Eat.wav"
+  },
+  {
+	"Word": "Read",
+	"Image": "res://Images/Read.jpg",
+	"Audio": "res://Audio/Read.wav"
+  },
+  {
+	"Word": "Sing",
+	"Image": "res://Images/Sing.jpg",
+	"Audio": "res://Audio/Sing.wav"
+  },
+  {
+	"Word": "Dance",
+	"Image": "res://Images/Dance.jpg",
+	"Audio": "res://Audio/Dance.wav"
+  },
+	{
+	"Word": "Sleep",
+	"Image": "res://Images/Sleep.jpg",
+	"Audio": "res://Audio/Sleep.wav"
+  },
+  {
+	"Word": "Swim",
+	"Image": "res://Images/Swim.jpg",
+	"Audio": "res://Audio/Swim.wav"
+  }
+]

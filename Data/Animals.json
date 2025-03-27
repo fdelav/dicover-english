@@ -1,0 +1,27 @@
+[
+	{
+	"Word": "Cat",
+	"Image": "res://Images/Cat.jpg",
+	"Audio": "res://Audio/Cat.wav"
+  },
+  {
+	"Word": "Dog",
+	"Image": "res://Images/Dog.jpg",
+	"Audio": "res://Audio/Dog.wav"
+  },
+  {
+	"Word": "Bird",
+	"Image": "res://Images/Bird.jpg",
+	"Audio": "res://Audio/Bird.wav"
+  },
+  {
+	"Word": "Horse",
+	"Image": "res://Images/Horse.jpg",
+	"Audio": "res://Audio/Horse.wav"
+  },
+  {
+	"Word": "Sheep",
+	"Image": "res://Images/Sheep.jpg",
+	"Audio": "res://Audio/Sheep.wav"
+  }
+]

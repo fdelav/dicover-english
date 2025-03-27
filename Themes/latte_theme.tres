@@ -1,0 +1,32 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://dk8otametd6bj"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5g5gg"]
+bg_color = Color(0.54902, 0.560784, 0.631373, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2xvar"]
+bg_color = Color(0.67451, 0.690196, 0.745098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wt4me"]
+bg_color = Color(0.67451, 0.690196, 0.745098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ukdog"]
+bg_color = Color(0.737255, 0.752941, 0.8, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h5tvb"]
+bg_color = Color(0.611765, 0.627451, 0.690196, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bjplr"]
+bg_color = Color(0.737255, 0.752941, 0.8, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vlka8"]
+
+[resource]
+Button/colors/font_color = Color(0.298039, 0.309804, 0.411765, 1)
+Button/styles/disabled = SubResource("StyleBoxFlat_5g5gg")
+Button/styles/focus = SubResource("StyleBoxFlat_2xvar")
+Button/styles/hover = SubResource("StyleBoxFlat_wt4me")
+Button/styles/normal = SubResource("StyleBoxFlat_ukdog")
+Button/styles/pressed = SubResource("StyleBoxFlat_h5tvb")
+Label/colors/font_color = Color(0.298039, 0.309804, 0.411765, 1)
+Panel/styles/panel = SubResource("StyleBoxFlat_bjplr")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_vlka8")

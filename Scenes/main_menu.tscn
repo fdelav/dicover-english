@@ -1,0 +1,93 @@
+[gd_scene load_steps=5 format=3 uid="uid://g8l1rs3b7hb2"]
+
+[ext_resource type="Theme" uid="uid://dk8otametd6bj" path="res://Themes/latte_theme.tres" id="1_1ehe0"]
+[ext_resource type="Texture2D" uid="uid://cvg8hvjw2155u" path="res://Universidad EAN logo.svg" id="2_ce3w2"]
+[ext_resource type="Script" uid="uid://bokbobxpv1pj5" path="res://Scenes/main_menu.gd" id="2_n45e2"]
+[ext_resource type="Texture2D" uid="uid://davy4xmr0fsf8" path="res://niños amigos de los cerezos 2.png" id="4_ce3w2"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -13.0
+offset_top = 3.0
+offset_right = -13.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_1ehe0")
+script = ExtResource("2_n45e2")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 28.0
+offset_top = -77.0
+offset_right = 168.0
+offset_bottom = -16.0
+grow_vertical = 0
+texture = ExtResource("2_ce3w2")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -157.0
+offset_top = -171.0
+offset_right = 803.0
+offset_bottom = 789.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("4_ce3w2")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 6.0
+offset_top = -120.0
+offset_right = 6.0
+offset_bottom = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 90
+text = "Discover English"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -51.0
+offset_top = 35.0
+offset_right = 74.0
+offset_bottom = 135.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(125, 50)
+layout_mode = 2
+size_flags_vertical = 4
+text = "Start
+(Empezar)"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Exit
+(Salir)"
+
+[connection signal="pressed" from="VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
