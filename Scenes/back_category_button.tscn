@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bxr2mncnvn5hx"]
 
-[ext_resource type="Texture2D" uid="uid://brtoulp6g8rk1" path="res://arrow-left-5.svg" id="1_tim05"]
+[ext_resource type="Texture2D" uid="uid://brtoulp6g8rk1" path="res://Sprites/arrow-left-5.svg" id="1_tim05"]
 [ext_resource type="Script" uid="uid://cl1lf1pdmuaky" path="res://Scenes/back_category_button.gd" id="2_lasut"]
 
 [node name="BackCategoryButton" type="Button"]

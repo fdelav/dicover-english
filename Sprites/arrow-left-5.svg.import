@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://davy4xmr0fsf8"
-path="res://.godot/imported/niños amigos de los cerezos 2.png-d5cf66f193ede2336582e993315f5b36.ctex"
+uid="uid://brtoulp6g8rk1"
+path="res://.godot/imported/arrow-left-5.svg-c7dccdf5c0d7abefe50ccff22506a274.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://niños amigos de los cerezos 2.png"
-dest_files=["res://.godot/imported/niños amigos de los cerezos 2.png-d5cf66f193ede2336582e993315f5b36.ctex"]
+source_file="res://Sprites/arrow-left-5.svg"
+dest_files=["res://.godot/imported/arrow-left-5.svg-c7dccdf5c0d7abefe50ccff22506a274.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

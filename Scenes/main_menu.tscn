@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://g8l1rs3b7hb2"]
 
 [ext_resource type="Theme" uid="uid://dk8otametd6bj" path="res://Themes/latte_theme.tres" id="1_1ehe0"]
-[ext_resource type="Texture2D" uid="uid://cvg8hvjw2155u" path="res://Universidad EAN logo.svg" id="2_ce3w2"]
+[ext_resource type="Texture2D" uid="uid://cvg8hvjw2155u" path="res://Sprites/Universidad EAN logo.svg" id="2_ce3w2"]
 [ext_resource type="Script" uid="uid://bokbobxpv1pj5" path="res://Scenes/main_menu.gd" id="2_n45e2"]
-[ext_resource type="Texture2D" uid="uid://davy4xmr0fsf8" path="res://niños amigos de los cerezos 2.png" id="4_ce3w2"]
+[ext_resource type="Texture2D" uid="uid://davy4xmr0fsf8" path="res://Sprites/niños amigos de los cerezos 2.png" id="4_ce3w2"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
